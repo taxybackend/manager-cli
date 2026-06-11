@@ -1,0 +1,19 @@
+{
+  "name": "manager-app-cli",
+  "version": "1.1.0",
+  "description": "Global manager CLI daemon",
+  "main": "lib/daemon.js",
+  "bin": {
+    "manager-app-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
